@@ -20,7 +20,7 @@ par(mfcol = c(2,2))
 
 # plot 1
 with(hpc, plot(datetime, Global_active_power, type = "l", 
-               ylab = "Global Active Power (kilowatts)"))
+               ylab = "Global Active Power"))
 
 # plot 2
 with(hpc, plot(datetime, Sub_metering_1, type = "n",
