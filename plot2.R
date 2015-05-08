@@ -16,6 +16,6 @@ hpc$datetime <- strptime(paste(hpc$Date, hpc$Time), "%d/%m/%Y %H:%M:%S")
 
 # create plot
 png("plot2.png")
-with(hpc, plot(datetime, Global_active_power, type = "l", 
+with(hpc, plot(datetime, Global_active_power, type = "l", xlab = "",
                ylab = "Global Active Power (kilowatts)"))
 dev.off()
